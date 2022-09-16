@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+@mixin title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+@mixin paragraphe {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+@mixin section_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+@mixin title-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+@mixin card_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@mixin button {
+    padding: 1rem;
+    border: unset;
+    font-family: 'Raleway', sans-serif;
+    width:max-content;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: .3rem;
+    transition: ease-out .4s;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+}
