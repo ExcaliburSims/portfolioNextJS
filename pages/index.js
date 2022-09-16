@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Portfolio|SimsZilu</title>
+        <title>SimsZilu | Developper Fullstack</title>
         <link rel='icon' href='/favicon.ico'/>
       </Head>
       <Header />
