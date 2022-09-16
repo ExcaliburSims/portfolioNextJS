@@ -1,6 +1,41 @@
 @import '/styles/Mixin_style.scss';
 
 .container {
+	//background-color: red;
   height: 50vh;
   color: $textNoir-700;
+	max-width: 80%;
+	margin: 0 auto;
+	h3{
+		@include title;
+		text-align: center;
+		color: $couleur1;
+		font-size: 1.8rem;
+		font-weight: 700;
+	}
+	h2{
+		@include section_title;
+			text-align: center;
+			line-height: 1.4,
+	}
+	div{
+		display: flex;
+		background-color: aquamarine;
+		margin-top: 2%;
+		.imgprofil{
+			background-color: aqua;
+			margin: 0;
+			img{
+				width: 40%;
+				height: 500px;
+			}
+		}
+		.proposinfo{
+			border: 1px solid green;
+			margin: 0;
+			p{
+				@include title;
+			}
+		}
+	}
 }
