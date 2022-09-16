@@ -1,3 +1,5 @@
+@import './Mixin_style.scss';
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,7 +22,7 @@
 		justify-content: space-between;
     height: 100%;
 		width: 40%;
-		background-color: aqua;
+		//background-color: aqua;
     li {
       list-style: none;
       transition: ease 0.5s;
@@ -45,11 +47,8 @@
         background-color: rgba(0, 0, 0, 0.15);
       } */
 			a {
+        @include title;
 				text-decoration: none;
-				font-size: 1.4rem;
-        font-weight: lighter;
-        font-family: 'Sansation';
-        color: #000;
         white-space: nowrap;
         &:hover {
           background-color: rgba(168, 169, 172, 0.39);
