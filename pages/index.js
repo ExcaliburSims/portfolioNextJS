@@ -10,7 +10,6 @@ export default function Home() {
         <title>SimsZilu | Developper Fullstack</title>
         <link rel='icon' href='/favicon.ico'/>
       </Head>
-      <Header />
     </div>
   )
 }
