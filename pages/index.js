@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import styles from '../styles/Home.module.scss'
+import Info from './Info'
 import Main from './Main'
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico'/>
       </Head>
       <Main />
+      <Info />
+      <Info />
     </div>
   )
 }

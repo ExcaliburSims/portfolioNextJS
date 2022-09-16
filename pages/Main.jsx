@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Header from '../components/Header'
@@ -8,17 +7,16 @@ function Main() {
 	return (
 		 <div className={styles.container}>
 			<Header />
-			{/*<div className={styles.sectionHome}>
-				home
-			</div> */}
 			<div className={styles.presentationCard}>
         <div className={styles.presentationCard_comment}>
-          <div>
-            <h1>Benelux Afro Center</h1>
+					<div>
+						<p>Construisons quelque chose ensemble</p>
+            <h1>Je suis <span>Siméon Zilu</span></h1>
+          	<h1>Ingenieur Logiciel</h1>
 						<p>
-							Benelux Afro Center est une association des membres de la diaspora africaine de Bruxelles dans un contexte d’une auto-prise en charge communautaire.
-						</p>
-						<Link href="activite"><a>Découvrir nos activités</a></Link>
+							Je me concentre sur la construction d'applications web et mobile front-end et back-end réactives
+          	</p>
+						<Link href="activite"><a>Hire me</a></Link>
           </div>
         </div>
       </div>

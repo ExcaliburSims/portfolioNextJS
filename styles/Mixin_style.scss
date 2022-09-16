@@ -24,26 +24,23 @@ $textNoir-300:#bbbbbb;
     color: $couleur1;
     font-weight: 400;
 }
-@mixin paragraphe {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    line-height: 24px;
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.67);
+@mixin title-2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
 }
-
 @mixin section_title {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-
 }
-
-@mixin title-2 {
+@mixin paragraphe {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 0;
+    font-size: 1.8rem;
+    //line-height: 4;
+    font-weight: 900;
+    color: $textNoir-300;
 }
 
 @mixin card_title {
@@ -61,6 +58,7 @@ $textNoir-300:#bbbbbb;
     font-weight: 400;
     border-radius: .3rem;
     transition: ease-out .4s;
+    color: $couleur1;
 
     &:hover {
         cursor: pointer;
