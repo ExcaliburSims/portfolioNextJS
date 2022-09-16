@@ -14,7 +14,6 @@ export default function Home() {
       </Head>
       <Main />
       <Info />
-      <Info />
     </div>
   )
 }
