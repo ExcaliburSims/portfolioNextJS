@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,400&display=swap');
 
+$couleur1:#fb839e;
+$couleur2:#ec9412;
+$couleur3:#1fc586;
+$couleur4:#2eb1ed;
+$couleur5:#cc3a3b;
+$couleur6:#f8f8f8;
+$couleur6:#0000;
+
+//
+$fondSombre:#100f1d;
+$fondNoir-900:#000000;
+$fondNoir-100:#dddddd;
+$fondNoir-50: #eff0f4;
+$textNoir-900:#000000;
+$textNoir-700:#555555;
+$textNoir-600:#666666;
+$textNoir-300:#bbbbbb;
+
 @mixin title {
     font-family: 'Raleway', sans-serif;
     font-size: 2.6rem;
