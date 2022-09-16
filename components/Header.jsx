@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import styles from '../styles/Header.module.scss'
 import Link from 'next/link'
 
 function Header() {
+const [headerColor, setHeaderColor] = useState("")
+
+
+const listenScrollEvent = () => {
+    window.scrollY > 10
+      ? setHeaderColor("brown")
+      : setHeaderColor("")
+  }
+useEffect(() => {
+  window.addEventListener("scroll", listenScrollEvent)
+})
 	return (
-		<nav className={styles.navbar}>
+		<nav className={styles.navbar} style={{backgroundColor:headerColor}}>
       <div className={styles.logo}>
         <Link href="/"><a>sims<span>zilu.</span></a></Link>
       </div>
