@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import styles from '../styles/Info.module.scss'
+import {FaLinkedin, FaGithub, FaTwitter, FaTelegram} from "react-icons/fa";
 
 function Info() {
 	return (
@@ -13,7 +14,14 @@ function Info() {
 					{/* <p>
 						Quand on prend les triangles rectangles, la politique. Chapitre abstrait 3 du conpendium : la prédestination. Quand on parle de relaxation, la politique. L’émergence ici c’est l’émulsion, c’est pas l’immersion donc  c’est clair provenant d'une dynamique syncronique. D'une manière ou d'une autre, l'ensemble des 5 sens. C’est à dire quand on parle de ces rollers,  mais oui possédant la francophonie. C’est à dire ici, c’est le contraire, au lieu de panacée,  Bonne Année off-shore. L’émergence ici c’est l’émulsion, c’est pas l’immersion donc la force. La convergence n’est pas la divergence,  mais oui possédant la francophonie. 
 					</p> */}
-					<img src='/assets/ours.jpg' className='rounded-xl' alt='profil' /* width={800} height={800}*/  />
+					<img src='/assets/ours.jpg' className='rounded-xl' alt='profil' /* width={800} height={800}*/ />
+					<ul>
+						<li><Link href="#" className={styles.link}><FaTwitter class="fab fa-facebook" aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaLinkedin class="fab fa-twitter" aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaTelegram class="fab fa-google-plus-g" aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaGithub class="fab fa-linkedin" aria-hidden="true" /></Link></li>
+						{/* <li><Link href="#"><i class="fab fa-instagram" aria-hidden="true" /></Link></li> */}
+				</ul>
 				</div>
 				<div className={styles.proposinfo}>    
 					<p>
