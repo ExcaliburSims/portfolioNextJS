@@ -39,13 +39,15 @@
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
+				align-items: center;
 				height: 20%;
 				li {
 					background-color: #3b5998;
 					list-style: none;
 					.link {
 						position: relative;
-						width:60px;
+						background-color: white;
+						width:90px;
 						height:60px;
 						display:block;
 						text-align:center;
@@ -55,7 +57,8 @@
 						box-sizing: border-box;
 						text-decoration:none;
 						box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-						background: linear-gradient(0deg, #ddd, #fff);
+						color: blueviolet;
+						//background: linear-gradient(0deg, #ddd, #fff);
 						transition: .5s;
 						&:hover {
 							box-shadow: 0 2px 5px rgba(0,0,0,0.3);
