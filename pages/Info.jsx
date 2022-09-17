@@ -16,10 +16,10 @@ function Info() {
 					</p> */}
 					<img src='/assets/ours.jpg' className='rounded-xl' alt='profil' /* width={800} height={800}*/ />
 					<ul>
-						<li><Link href="#" className={styles.link}><FaTwitter class="fab fa-facebook" aria-hidden="true" /></Link></li>
-						<li><Link href="#" className={styles.link}><FaLinkedin class="fab fa-twitter" aria-hidden="true" /></Link></li>
-						<li><Link href="#" className={styles.link}><FaTelegram class="fab fa-google-plus-g" aria-hidden="true" /></Link></li>
-						<li><Link href="#" className={styles.link}><FaGithub class="fab fa-linkedin" aria-hidden="true" /></Link></li>
+						<li><Link href="/"><FaTwitter className={styles.fab} aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaLinkedin className={styles.fab} aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaTelegram className={styles.fab} aria-hidden="true" /></Link></li>
+						<li><Link href="#" className={styles.link}><FaGithub className={styles.fab} aria-hidden="true" /></Link></li>
 						{/* <li><Link href="#"><i class="fab fa-instagram" aria-hidden="true" /></Link></li> */}
 				</ul>
 				</div>
