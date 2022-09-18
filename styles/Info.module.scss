@@ -1,54 +1,57 @@
-@import '/styles/Mixin_style.scss';
+@import "/styles/Mixin_style.scss";
 
 .container {
-	//background-color: red;
+  //background-color: red;
   height: 90vh;
   color: $textNoir-700;
-	max-width: 70%;
-	margin: 0 auto;
-	h3{
-		@include title;
-		margin-top: 2%;
-		text-align: center;
-		color: $couleur1;
-		font-size: 1.8rem;
-		font-weight: 700;
-	}
-	h2{
-		@include section_title;
-			text-align: center;
-			line-height: 1.4,
-	}
-	div{
-		display: flex;
-		background-color: aquamarine;
-		margin-top: 2%;
-		.imgprofil{
-			display: flex;
-			flex-direction: column;
-			background-color: rgb(255, 0, 0);
-			margin: 0;
-			width: 50%;
-			height: 550px;
-			img{
-				width: 100%;
-				height: 80%;
-			}
-			ul{
-				background-color: aqua;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				align-items: center;
-				height: 20%;
-				li {
-					background-color: #3b5998;
-					list-style: none;
-					.link {
+  max-width: 70%;
+  margin: 0 auto;
+  h3 {
+    @include title;
+    margin-top: 2%;
+    text-align: center;
+    color: $couleur1;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  h2 {
+    @include section_title;
+    text-align: center;
+    line-height: 1.4;
+  }
+  div {
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 2%;
+    .imgprofil {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 0, 0);
+      margin: 0;
+      width: 50%;
+      height: 550px;
+      img {
+        width: 100%;
+        height: 80%;
+      }
+      ul {
+        background-color: rgb(0, 255, 106);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 10%;
+        li {
+          background-color: #3b5998;
+          //list-style: none;
+          //color: blueviolet;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          /* a {
 						position: relative;
 						background-color: white;
-						width:90px;
-						height:60px;
+						width:100%;
+						height:100%;
 						display:block;
 						text-align:center;
 						margin:0 10px;
@@ -57,52 +60,50 @@
 						box-sizing: border-box;
 						text-decoration:none;
 						box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-						color: blueviolet;
+						color: rgb(43, 226, 49);
 						//background: linear-gradient(0deg, #ddd, #fff);
 						transition: .5s;
-						&:hover {
-							box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-							text-decoration:none;
-						}
-						.fab {
-							width: 100%;
-							height:100%;
-							display:block;
-							background: linear-gradient(0deg, #fff, #ddd);
-							border-radius: 50%;
-							line-height: calc(60px - 12px);
-							font-size:24px;
-							color: #262626;
-							transition: .5s;
-						}
-					}
-					&:nth-child(1) a:hover .fab {
-						color: #3b5998;
-					}
-					&:nth-child(2) a:hover .fab {
-						color: #00aced;
-					}
-					&:nth-child(3) a:hover .fab {
-						color: #dd4b39;
-					}
-					&:nth-child(4) a:hover .fab {
-						color: #007bb6;
-					}
-					&:nth-child(5) a:hover .fab {
-						color: #e4405f;
-					}
-				}
-			}
-		}
-		.proposinfo{
-			border: 1px solid green;
-			margin: 0;
-			background-color: brown;
-			margin-left: 5%;
-			width: 80%;
-			p{
-				@include title;
-			}
-		}
-	}
+						
+					} */
+          .fab {
+            width: 70%;
+            height: 70%;
+            display: block;
+            border-radius: 30%;
+            //background: linear-gradient(0deg, #fff, #ddd);
+            position: relative;
+            left: 7px;
+            top: 7px;
+            font-size: 24px;
+            transition: 0.5s;
+          }
+          &:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            &:nth-child(1) {
+              color: #00aced;
+            }
+            &:nth-child(2) {
+              color: #007bb6;
+            }
+            &:nth-child(3) {
+              color: #229ed9;
+            }
+            &:nth-child(4) {
+              color: #171515;
+            }
+          }
+        }
+      }
+    }
+    .proposinfo {
+      border: 1px solid green;
+      margin: 0;
+      background-color: brown;
+      margin-left: 5%;
+      width: 80%;
+      p {
+        @include title;
+      }
+    }
+  }
 }
