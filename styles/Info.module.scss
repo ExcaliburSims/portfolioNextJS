@@ -2,27 +2,20 @@
 
 .container {
   //background-color: red;
-  height: 90vh;
+  height: 80vh;
   color: $textNoir-700;
   max-width: 65%;
   margin: 0 auto;
-  h3 {
-    @include title;
-    margin-top: 2%;
-    text-align: center;
-    color: $couleur1;
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
-  h2 {
-    @include section_title;
-    text-align: center;
-    line-height: 1.4;
-  }
-  div {
+	.title{
+		@include section_title;
+		h2{
+			color: $textNoir-700;
+		}
+	}
+  .content {
     display: flex;
     //background-color: aquamarine;
-    margin-top: 2%;
+    margin-top: 1%;
     .imgprofil {
       display: flex;
       flex-direction: column;
