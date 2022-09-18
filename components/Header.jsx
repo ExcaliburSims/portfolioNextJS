@@ -7,9 +7,7 @@ const [headerColor, setHeaderColor] = useState("")
 
 
 const listenScrollEvent = () => {
-    window.scrollY > 10
-      ? setHeaderColor("brown")
-      : setHeaderColor("")
+    window.scrollY > 10 ? setHeaderColor("#100f1d") : setHeaderColor("");
   }
 useEffect(() => {
   window.addEventListener("scroll", listenScrollEvent)
