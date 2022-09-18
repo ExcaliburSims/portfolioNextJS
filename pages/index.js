@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home.module.scss'
 import Info from './Info'
 import Main from './Main'
+import Service from './Service'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Main />
       <Info />
+      <Service />
     </div>
   )
 }
