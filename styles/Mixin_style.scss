@@ -1,67 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,400&family=Ubuntu:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,400&family=Ubuntu:ital,wght@1,700&display=swap");
 
-$couleur1:#fb839e;
-$couleur2:#ec9412;
-$couleur3:#1fc586;
-$couleur4:#2eb1ed;
-$couleur5:#cc3a3b;
-$couleur6:#f8f8f8;
-$couleur7:#0000;
+$couleur1: #fb839e;
+$couleur2: #ec9412;
+$couleur3: #1fc586;
+$couleur4: #2eb1ed;
+$couleur5: #cc3a3b;
+$couleur6: #f8f8f8;
+$couleur7: #0000;
 
 //
-$fondSombre:#100f1d;
-$fondNoir-900:#000000;
-$fondNoir-100:#dddddd;
+$fondSombre: #100f1d;
+$fondNoir-900: #000000;
+$fondNoir-100: #dddddd;
 $fondNoir-50: #eff0f4;
-$textNoir-900:#000000;
-$textNoir-700:#555555;
-$textNoir-600:#666666;
-$textNoir-300:#bbbbbb;
+$textNoir-900: #000000;
+$textNoir-700: #555555;
+$textNoir-600: #666666;
+$textNoir-300: #bbbbbb;
 
 @mixin title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.4rem;
-    color: $couleur1;
-    font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  color: $couleur1;
+  font-weight: 400;
 }
 @mixin title-2 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4rem;
-    font-weight: 700;
-    margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
 }
+/* @mixin section_title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+} */
 @mixin section_title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
+  padding: 2%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+  h2 {
+    display: inline-block;
+    font-size: 1.8rem;
     font-weight: 700;
+    color: $textNoir-300;
+    text-transform: uppercase;
+    line-height: 1.4;
+    &::before {
+      content: attr(data-entete);
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: $couleur1;
+      line-height: 1.4;
+    }
+  }
 }
 @mixin paragraphe {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem;
-    //line-height: 4;
-    font-weight: 900;
-    color: $textNoir-300;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  //line-height: 4;
+  font-weight: 900;
+  color: $textNoir-300;
 }
 
 @mixin card_title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 @mixin button {
-    padding: 1rem;
-    border: unset;
-    font-family: 'Raleway', sans-serif;
-    width:max-content;
-    font-size: 1.1rem;
-    font-weight: 400;
-    border-radius: .3rem;
-    transition: ease-out .4s;
-    color: $couleur1;
+  padding: 1rem;
+  border: unset;
+  font-family: "Raleway", sans-serif;
+  width: max-content;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 0.3rem;
+  transition: ease-out 0.4s;
+  color: $couleur1;
 
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.03);
-    }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
 }
