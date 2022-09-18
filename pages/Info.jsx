@@ -13,9 +13,10 @@ import {
 function Info() {
   return (
     <div className={styles.container}>
-      <h3>Infos</h3>
-      <h2>Qui suis-je ?</h2>
-      <div>
+      <div className={styles.title}>
+        <h2 data-entete="Information personnelle">Qui suis-je ?</h2>
+      </div>
+      <div className={styles.content}>
         <div className={styles.imgprofil}>
           <img src="/assets/ours.jpg" className="rounded-xl" alt="profil" />
           <ul>
