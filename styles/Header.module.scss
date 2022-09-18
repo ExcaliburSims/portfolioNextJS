@@ -8,6 +8,7 @@
   height: 4.1rem;
   width: 80%;
   position: fixed;
+  z-index: 99;
   .logo {
     @include title;
     display: flex;
