@@ -10,6 +10,11 @@ function Service() {
       </div>
       <div className={styles.content}>
         <CardServices />
+        <CardServices />
+        <CardServices />
+        <CardServices />
+        <CardServices />
+        <CardServices />
       </div>
     </div>
   );
