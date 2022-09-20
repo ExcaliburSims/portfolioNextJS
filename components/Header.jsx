@@ -13,29 +13,35 @@ useEffect(() => {
   window.addEventListener("scroll", listenScrollEvent)
 })
 	return (
-		<nav className={styles.navbar} style={{backgroundColor:headerColor}}>
+    <nav className={styles.navbar} style={{ backgroundColor: headerColor }}>
       <div className={styles.logo}>
-        <Link href="/"><a>sims<span>zilu.</span></a></Link>
+        <Link href="/">
+          <a>
+            sims<span>zilu.</span>
+          </a>
+        </Link>
       </div>
       <ul>
-      	<li>
-          <Link href="/" className={styles.link}>Accueil</Link>
+        <li>
+          <Link href="/" className={styles.link}>
+            Accueil
+          </Link>
         </li>
         <li>
-          <Link href="/" >Infos</Link>
-				</li>
-				<li>
-					<Link href="/projets">Services</Link> 
-				</li>
-				<li>
-					<Link href="/services">Contact</Link>  
-				</li>
-      	<li>     
-					<Link href="/nosprogrammes">Agenda</Link>         
-				</li>
+          <Link href="/">Infos</Link>
+        </li>
+        <li>
+          <Link href="/projets">Services</Link>
+        </li>
+        <li>
+          <Link href="/projets">Projets</Link>
+        </li>
+        <li>
+          <Link href="/services">Contact</Link>
+        </li>
       </ul>
     </nav>
-	)
+  );
 }
 
 export default Header
