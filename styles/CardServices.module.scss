@@ -1,0 +1,47 @@
+@import "/styles/Mixin_style.scss";
+$ombreExterieurDark: 3px 3px 3px #040407, -3px -3px 3px #222327;
+$ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
+
+.service {
+  /* flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  display: flex;
+  flex: wrap; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+	box-shadow: $ombreExterieurDark;
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin: 2%;
+    color: $textNoir-300;
+		box-shadow: $ombreInterieurDark;
+    .iconpic {
+      font-size: 30px;
+      line-height: 60px;
+    }
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $textNoir-300;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 1rem;
+    color: $textNoir-600;
+    margin: 0;
+    line-height: 1.5;
+		padding: 4%;
+		text-align: justify;
+  }
+}
