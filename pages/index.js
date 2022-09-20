@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home.module.scss'
 import Info from './Info'
 import Main from './Main'
+import Project from './Project'
 import Service from './Service'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Main />
       <Info />
       <Service />
+      <Project />
     </div>
   )
 }
