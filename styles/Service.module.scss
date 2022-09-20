@@ -5,9 +5,11 @@
 	//background-color: red;
   height: 93vh;
   color: $textNoir-700;
-  //max-width: 65%;
-  //margin: 0 auto;
 	.title{
 		@include section_title
+	}
+	.content{
+  max-width: 65%;
+  margin: 0 auto;
 	}
 }
