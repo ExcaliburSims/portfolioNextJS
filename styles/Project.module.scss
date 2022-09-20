@@ -7,6 +7,8 @@
   margin: 0 auto;
 	.title{
 		@include section_title;
+		background-color: antiquewhite;
+		margin-bottom: 0;
 		h2{
 			color: $textNoir-700;
 		}
@@ -14,10 +16,8 @@
 	.content {
     display: flex;
     justify-content: center;
-    //max-width: 70%;
-    //margin: 0 auto;
 		background-color: red;
 		width: 100%;
-		height: 50px;
+		height: 80%;
   }
 }

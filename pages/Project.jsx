@@ -1,4 +1,5 @@
 import React from "react";
+import CardProject from "../components/CardProject";
 import styles from "../styles/Project.module.scss";
 
 function Project() {
@@ -7,7 +8,9 @@ function Project() {
       <div className={styles.title}>
         <h2 data-entete="Projet">Derniers Travaux</h2>
       </div>
-      <div className={styles.content}></div>
+      <div className={styles.content}>
+        <CardProject />
+      </div>
     </div>
   );
 }

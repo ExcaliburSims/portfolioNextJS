@@ -2,7 +2,7 @@
 $ombreExterieurDark: 3px 3px 3px #040407, -3px -3px 3px #222327;
 $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
 
-.service {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
 	&:hover .icon .iconpic{
 		color: $couleur1;
 	}
-  .icon {
+  .cardIcon {
     display: flex;
     justify-content: center;
     align-items: center;

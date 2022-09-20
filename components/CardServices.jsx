@@ -4,8 +4,8 @@ import { FaMobileAlt } from "react-icons/fa";
 
 function CardServices(props) {
   return (
-    <div className={styles.service}>
-      <div className={styles.icon}>
+    <div className={styles.cardService}>
+      <div className={styles.cardIcon}>
         {/* <FaMobileAlt className={styles.iconpic} /> */}
         {props.icon}
       </div>
