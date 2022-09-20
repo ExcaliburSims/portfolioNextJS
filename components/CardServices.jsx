@@ -5,9 +5,7 @@ import { FaMobileAlt } from "react-icons/fa";
 function CardServices() {
   return (
     <div className={styles.service}>
-      {/* <div className={styles.service__interieur}> */}
       <div className={styles.icon}>
-        {/* <i class="fas fa-mobile-alt"></i>*/}
         <FaMobileAlt className={styles.iconpic} />
       </div>
       <h3>Responsive Design</h3>
@@ -17,7 +15,6 @@ function CardServices() {
         recently with desktop publishing software like Aldus PageMaker including
         versions of Lorem Ipsum.
       </p>
-      {/* </div> */}
     </div>
   );
 }
