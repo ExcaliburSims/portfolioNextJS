@@ -9,7 +9,7 @@ function Project() {
   var settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -20,30 +20,16 @@ function Project() {
       <div className={styles.title}>
         <h2 data-entete="Projet">Derniers Travaux</h2>
       </div>
-      {/* <div className={styles.content}>
-      <div>*/}
       <Slider {...settings} className={styles.content}>
         <CardProject />
         <CardProject />
         <CardProject />
         <CardProject />
         <CardProject />
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
+        <CardProject />
+        <CardProject />
       </Slider>
     </div>
-    /* </div>
-    </div> */
   );
 }
 

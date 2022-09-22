@@ -6,27 +6,22 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
-  height: 60%;
-  margin: 1.1%;
-	background-color: aqua;
-  //box-shadow: $ombreExterieurDark;
-  border: #040407 1px solid;
-
+  margin: 5%;
+  margin-top: 0;
   &:hover .icon .iconpic {
     color: $couleur1;
   }
 
   .cardContent {
-    padding: 20px;
+    padding: 5%;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
-		background-color: #0daae8;
+    width: 90%;
+    height: 80%;
+    margin: 15px;
 
     &:hover .cardImage {
-      transform: translateY(-25px);
+      transform: translateY(-10px);
       background-color: #040407;
     }
     &:hover .cardBloc a {
@@ -36,7 +31,7 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
 
     .cardImage {
       width: 100%;
-			height: 80%;
+			height: 70%;
       border-radius: 15px;
       transition: all 0.3s ease;
     }
@@ -50,7 +45,7 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
         color: $couleur1;
         transition: all 0.3s ease;
         position: relative;
-        bottom: 25px;
+        bottom: 1px;
         transform: translateY(-5px);
         opacity: 0;
 				padding-left: 4%;
@@ -58,7 +53,7 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
     }
     p {
 			@include paragraphe;
-      margin: 10px 0 0;
+      margin: 20px 0 0;
       text-transform: capitalize;
 			color: $textNoir-700;
 			font-weight:400;
