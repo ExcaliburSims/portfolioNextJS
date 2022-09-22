@@ -10,7 +10,7 @@ $ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
   height: auto;
 	margin: 1.1%;
 	box-shadow: $ombreExterieurDark;
-	&:hover .icon .iconpic{
+	&:hover .cardIcon .iconpic{
 		color: $couleur1;
 	}
   .cardIcon {
