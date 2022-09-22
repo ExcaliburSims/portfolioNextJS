@@ -1,18 +1,20 @@
 import React, { useState,useEffect } from 'react'
 import styles from '../styles/Header.module.scss'
 import Link from 'next/link'
+import { useRouter } from "next/router";
+import Project from "../pages/Project";
 
 function Header() {
-const [headerColor, setHeaderColor] = useState("")
+  const [headerColor, setHeaderColor] = useState("");
+  const router = useRouter();
 
-
-const listenScrollEvent = () => {
+  const listenScrollEvent = () => {
     window.scrollY > 10 ? setHeaderColor("#100f1d") : setHeaderColor("");
-  }
-useEffect(() => {
-  window.addEventListener("scroll", listenScrollEvent)
-})
-	return (
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+  });
+  return (
     <nav className={styles.navbar} style={{ backgroundColor: headerColor }}>
       <div className={styles.logo}>
         <Link href="/">
@@ -21,23 +23,34 @@ useEffect(() => {
           </a>
         </Link>
       </div>
-      <ul>
+      <ul id="myUl">
         <li>
-          <Link href="/" className={styles.link}>
+          <Link
+            href="/"
+            className={router.pathname == "/" ? styles.active : ""}
+          >
             Accueil
           </Link>
         </li>
         <li>
-          <Link href="/">Infos</Link>
+          <Link href="#Info" className={styles.active}>
+            Infos
+          </Link>
         </li>
         <li>
-          <Link href="/projets">Services</Link>
+          <Link href="#Service" className={styles.active}>
+            Services
+          </Link>
         </li>
         <li>
-          <Link href="/projets">Projets</Link>
+          <Link href="#Project" className={styles.active}>
+            Projets
+          </Link>
         </li>
         <li>
-          <Link href="/services">Contact</Link>
+          <Link href="#Contact" className={styles.active}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

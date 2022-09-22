@@ -12,7 +12,7 @@ import {
 
 function Info() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Info">
       <div className={styles.title}>
         <h2 data-entete="Information personnelle">Qui suis-je ?</h2>
       </div>

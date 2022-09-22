@@ -18,7 +18,9 @@ function Project() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h2 data-entete="Projet">Derniers Travaux</h2>
+        <h2 data-entete="Projet" id="Project">
+          Derniers Travaux
+        </h2>
       </div>
       <Slider {...settings} className={styles.content}>
         <CardProject />

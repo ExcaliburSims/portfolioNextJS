@@ -4,7 +4,7 @@ import styles from "../styles/Contact.module.scss";
 
 function Contact() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Contact">
       <div className={styles.title}>
         <h2 data-entete="Contact">Prendre contact</h2>
       </div>
