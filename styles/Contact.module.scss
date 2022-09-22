@@ -1,8 +1,11 @@
 @import "/styles/Mixin_style.scss";
+$ombreExterieurDark: 3px 3px 3px #040407, -3px -3px 3px #222327;
+$ombreExterieur-0Dark: 0 0 0 #040407;
+$ombreInterieurDark: inset 3px 3px 3px #040407, inset -3px -3px 3px #222327;
 
 .container {
   background-color: $fondSombre;
-  height: 80vh;
+  height: 55vh;
   color: $textNoir-700;
   .title {
     @include section_title;
@@ -10,9 +13,107 @@
   }
   .content {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 70%;
+    justify-content: space-between;
+    max-width: 60%;
     margin: 0 auto;
+    //background-color: brown;
+    .blocInput {
+      //background-color: green;
+      width: 50%;
+    }
+    .blocTextarea {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 45%;
+      .groupeTextarea {
+        width: 100%;
+        margin: 0 0 25px;
+        transition: all 0.3s ease;
+        border-radius: 30px;
+        box-shadow: $ombreExterieurDark;
+        &::after {
+          border-radius: 30px;
+        }
+        .survol {
+          position: relative;
+          z-index: 1;
+          .textarea {
+            height: 180px;
+            width: 100%;
+            padding: 15px;
+            resize: none;
+            border-radius: 30px;
+            border: none;
+            background-color: transparent;
+            font-size: 1rem;
+            padding: 15px 15px;
+            color: $couleur6;
+            font-weight: 100;
+            display: block;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3 ease;
+            z-index: -1;
+            border-radius: 30px;
+          }
+          &:hover {
+            box-shadow: $ombreExterieur-0Dark;
+          }
+          &:hover::after {
+            box-shadow: $ombreInterieurDark;
+          }
+        }
+      }
+      .groupeBouton {
+        width: 20%;
+        margin: 0 15px 25px;
+        transition: all 0.3s ease;
+        border-radius: 30px;
+        box-shadow: $ombreExterieurDark;
+        &::after {
+          border-radius: 30px;
+        }
+        .survol {
+          position: relative;
+          z-index: 1;
+          .bouton {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            border-radius: 30px;
+            border: none;
+            background-color: transparent;
+            font-size: 1rem;
+            color: $couleur1;
+            font-weight: 100;
+            text-align: center;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3 ease;
+            z-index: -1;
+            border-radius: 30px;
+          }
+          &:hover {
+            box-shadow: $ombreExterieur-0Dark;
+          }
+          &:hover::after {
+            box-shadow: $ombreInterieurDark;
+          }
+        }
+      }
+    }
   }
 }
