@@ -1,0 +1,12 @@
+@import "/styles/Mixin_style.scss";
+
+.container {
+  background-color: $fondSombre;
+  height: 4vh;
+  color: $textNoir-700;
+	text-align: center;
+	border-top: 1px solid $fondNoir-900;
+  h3 {
+    margin-top: 0.5%;
+  }
+}
