@@ -38,6 +38,12 @@
       display: flex;
       align-items: center;
       box-sizing: border-box;
+      .active{
+        color: $fondNoir-50;
+      }
+      .inactive{
+        color: $couleur1;
+      }
 			a {
         @include title;
 				text-decoration: none;

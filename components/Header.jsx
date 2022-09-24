@@ -6,7 +6,7 @@ import Project from "../pages/Project";
 
 function Header() {
   const [headerColor, setHeaderColor] = useState("");
-  const router = useRouter();
+  const road = useRouter();
 
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setHeaderColor("#100f1d") : setHeaderColor("");
@@ -25,16 +25,23 @@ function Header() {
       </div>
       <ul id="myUl">
         <li>
-          <Link
-            href="/"
-            className={router.pathname == "/" ? styles.active : ""}
-          >
-            Accueil
+          <Link href="/">
+            <a
+              className={road.pathname == "/" ? styles.active : styles.inactive}
+            >
+              Accueil
+            </a>
           </Link>
         </li>
         <li>
           <Link href="#Info" className={styles.active}>
-            Infos
+            <a
+              className={
+                road.pathname == "#Info" ? styles.active : styles.inactive
+              }
+            >
+              Infos
+            </a>
           </Link>
         </li>
         <li>
