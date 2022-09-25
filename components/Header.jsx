@@ -25,7 +25,7 @@ function Header() {
       </div>
       <ul id="myUl">
         <li>
-          <Link href="/">
+          <Link href="/" className={styles.active}>
             <a
               className={road.pathname == "/" ? styles.active : styles.inactive}
             >
@@ -46,17 +46,35 @@ function Header() {
         </li>
         <li>
           <Link href="#Service" className={styles.active}>
-            Services
+            <a
+              className={
+                road.pathname == "#Service" ? styles.active : styles.inactive
+              }
+            >
+              Services
+            </a>
           </Link>
         </li>
         <li>
           <Link href="#Project" className={styles.active}>
-            Projets
+            <a
+              className={
+                road.pathname == "#Project" ? styles.active : styles.inactive
+              }
+            >
+              Projets
+            </a>
           </Link>
         </li>
         <li>
           <Link href="#Contact" className={styles.active}>
-            Contact
+            <a
+              className={
+                road.pathname == "#Contact" ? styles.active : styles.inactive
+              }
+            >
+              Contact
+            </a>
           </Link>
         </li>
       </ul>
