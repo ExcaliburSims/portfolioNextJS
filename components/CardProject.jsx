@@ -12,7 +12,7 @@ function CardProject() {
             <a>Voir projet</a>
           </Link>
         </div>
-        <p class="element--projet__titre">Mon google</p>
+        <p className="element--projet__titre">Mon google</p>
       </div>
     </div>
   );
