@@ -12,24 +12,55 @@
     align-items: center;
 		height: auto;
     padding: 15% 7%;
-    //border: 1px solid red;
-  	//background: linear-gradient(86.84deg, rgba(35, 160, 220, 0.63) 3.43%, rgba(35, 160, 220, 0) 74.9%);
-    div {
+    background-color: green;
+    @media screen and (max-width: 768px) {
+      background-color: aqua;
+      .bloc_comment{
+        background-color: rgb(255, 251, 0);
+        //width: 500px;
+        .title{
+          color: darkorchid;
+        }
+      }
+    }
+    @media screen and (max-width: 1305px) {
+      background-color: rgb(255, 68, 0);
+      justify-content: center;
+      .bloc_comment{
+        background-color: rgb(55, 255, 0);
+        .title{
+          color: rgb(0, 0, 0);
+          font-size: 3rem;
+          span{
+            font-size: 3.5rem;
+            color: $couleur7;
+          }
+        }
+        .paragraphe {
+          @include paragraphe;
+          font-size: 1.5rem;
+          line-height: 2;
+          text-align: center;
+        }
+      }
+    }
+    .bloc_comment {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			width: 40%;
+			width: 50%;
 			height: 80%;
       padding: 0 3%;
-      h1 {
+      //background-color: rgb(49, 0, 128);
+      .title {
 				@include title-2;
 				line-height: 1.5;
 				span{
 					color: $couleur1;
 				}
       }
-			p {
+			.paragraphe {
 				@include paragraphe;
         font-size: 1.5rem;
         line-height: 2;
@@ -47,4 +78,3 @@
     }
   }
 }
-
