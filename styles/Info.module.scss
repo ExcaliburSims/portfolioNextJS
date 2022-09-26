@@ -2,34 +2,42 @@
 
 .container {
   //background-color: red;
-  height: 80vh;
+  //height: 80vh;
   color: $textNoir-700;
-  max-width: 65%;
+  max-width: 80%;
   margin: 0 auto;
-	.title{
-		@include section_title;
-		h2{
-			color: $textNoir-700;
-		}
-	}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    @include section_title;
+    h2 {
+      color: $textNoir-700;
+    }
+  }
   .content {
     display: flex;
-    //background-color: aquamarine;
-    margin-top: 1%;
+    //justify-content: center;
+    //align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 2% 0;
+    //margin-top: 1%;
     .imgprofil {
       display: flex;
       flex-direction: column;
       //background-color: rgb(72, 255, 0);
       margin: 0;
-      width: 50%;
-      height: 550px;
+      width: 40%;
+      height: 450px;
       img {
         width: 100%;
-        height: 80%;
+        height: 85%;
         border-radius: 30px;
       }
       ul {
-        //background-color: rgb(0, 255, 106);
+        //background-color: rgb(76, 0, 255);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -56,7 +64,7 @@
             top: 7px;
             font-size: 24px;
             transition: 0.5s;
-						background-color: linear-gradient(45deg, #ddd, #fff);
+            background-color: linear-gradient(45deg, #ddd, #fff);
           }
           &:hover {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -82,24 +90,25 @@
     .proposinfo {
       display: flex;
       flex-direction: column;
-			align-items: center;
+      align-items: center;
       margin: 0;
       //background-color: brown;
       margin-left: 3%;
-      width: 70%;
-			padding-top: 10%;
-      p {
+      width: 55%;
+      height: auto;
+      padding-top: 10%;
+      .paragraphe {
         @include paragraphe;
-				color: $textNoir-700;
-				text-align: justify;
-				font-weight:400;
-				font-size: 1.8rem;
-				line-height: 1.2;
-				span{
-					@include title;
-					font-size: 1.8rem;
-					font-weight: 500;
-				}
+        color: $textNoir-700;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 1.2;
+        span {
+          @include title;
+          font-size: 1.8rem;
+          font-weight: 500;
+        }
       }
       a {
         @include button;
@@ -108,9 +117,56 @@
         text-decoration: none;
         //border: solid 3px white;
         background-color: $couleur1;
-				color: $couleur6;
+        color: $couleur6;
         display: block;
       }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .content {
+      width: 100%;
+      height: auto;
+      margin: 0 0 2% 0;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 95%;
+    .content {
+      width: 100%;
+      height: auto;
+      margin: 0 0 2% 0;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 95%;
+    .content {
+      width: 100%;
+      height: auto;
+      margin: 0 0 2% 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .imgprofil {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+        height: 450px;
+      }
+      .proposinfo {
+      margin: 0;
+      width: 100%;
+      .paragraphe {
+        font-size: 1.5rem;
+        span {
+          font-size: 1.5rem;
+        }
+      }
+      a {
+        padding: 1rem;
+      }
+    }
     }
   }
 }

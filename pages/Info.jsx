@@ -18,7 +18,7 @@ function Info() {
       </div>
       <div className={styles.content}>
         <div className={styles.imgprofil}>
-          <img src="/assets/ours.jpg" className="rounded-xl" alt="profil" />
+          <img src="/assets/ours.jpg" className="image_profl" alt="profil" />
           <ul>
             <li>
               <Link href="/">
@@ -43,7 +43,7 @@ function Info() {
           </ul>
         </div>
         <div className={styles.proposinfo}>
-          <p>
+          <p className={styles.paragraphe}>
             Je suis <span>Siméon Zilu</span>&#44;&nbsp;
             <span>ingénieur logiciel</span>&nbsp;spécialisé notamment dans les
             technologies Web et mobile. Mon savoir-faire est basé principalement
