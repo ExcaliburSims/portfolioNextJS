@@ -4,7 +4,7 @@ import styles from "../styles/Footer.module.scss";
 function Footer() {
   return (
     <div className={styles.container}>
-      <h3>&#64;2022 Design&#44; Intégration et développement par Siméon</h3>
+      <h3>&#64;2022 Design et développement par Siméon</h3>
     </div>
   );
 }

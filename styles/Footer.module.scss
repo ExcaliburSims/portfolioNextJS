@@ -4,9 +4,14 @@
   background-color: $fondSombre;
   height: 4vh;
   color: $textNoir-700;
-	text-align: center;
-	border-top: 1px solid $fondNoir-900;
+  text-align: center;
+  border-top: 1px solid $fondNoir-900;
   h3 {
     margin-top: 0.5%;
   }
+  /* @media screen and (max-width: 425px) {
+    h3 {
+      color: green;
+    }
+  } */
 }
