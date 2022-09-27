@@ -2,7 +2,8 @@
 
 .container {
   background-color: $fondSombre;
-  height: 94vh;
+  //height: 94vh;
+  height: auto;
   color: $textNoir-700;
   .title {
     @include section_title;
@@ -14,5 +15,10 @@
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
+  }
+  @media screen and (max-width: 1440px) {
+    .content {
+      max-width: 90%;
+    }
   }
 }
