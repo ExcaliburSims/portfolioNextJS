@@ -54,4 +54,14 @@
       }
     }
   }
+  @media screen and (max-width: 1100px) {
+  }
+  @media screen and (max-width: 768px) {
+    ul{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    
+  }
 }
