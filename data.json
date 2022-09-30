@@ -1,0 +1,62 @@
+{
+    "profil": [
+      {
+        "firstname": "Zilu",
+        "lastname": "Siméon",
+        "job_title": "Ingenieur logiciel",
+        "pic": "profil2.png",
+        "skills": "By integrating the kinshasa digital Academy, my experience in the world of software development and design has increased to the extent that I know exactly how to meet the needs of my clients.  Innovation being at the heart of my achievements, I place particular emphasis on new technology, because for me it represents the future.  Teamwork being an essential asset in the accomplishment of a good job, I define myself as a fervent collaborator.",
+        "about": "Holding a Bachelor's Degree in Computer Science and  Kinshasa Digital Academy's student in 2021. Very passionate by the computer science industry, I can't let go any opportunity which can let me learn or pratice or once again shared my knowledge  related to computer science topics with a focus on the App development and database management.",
+        "email": "ximeonzilu@gmail.com",
+        "telephone": "+243 810814949",
+        "address": "Kinshasa/Ngaliema GB",
+        "cv": "xims.pdf"
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "icon": "fa-paint-brush",
+        "service_name": "App Design",
+        "service_description": "For your projects, we provide you with UX and UI Design solutions adapted to your needs"
+      },
+      {
+        "id": 2,
+        "icon": "fa-chart-line",
+        "service_name": "Digital Orientation",
+        "service_description": "Are you hesitating of which technology to use? I'm there to provide you adaquate guide."
+      },
+      {
+        "id": 3,
+        "icon": "fa-code",
+        "service_name": "App Development",
+        "service_description": "We turn your dreams into reality by providing you with mobile, web and desktop applications"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "project_image": "project-one.jpeg",
+        "project_title": "Derrière ma Santé",
+        "project_description": "An online medical consultation application, done with Flutter and PhP"
+      },
+      {
+        "id": 2,
+        "project_image": "Screens.jpg",
+        "project_title": "HealthPlus",
+        "project_description": "A warning system for medicale appointments, done with Flutter and PhP "
+      },
+      {
+        "id": 3,
+        "project_image": "project-two.jpeg",
+        "project_title": "Stock Management",
+        "project_description": "A simple stock management system, done with Javascript and GoogleSheet"
+      },
+      {
+        "id": 4,
+        "project_image": "portofolio.jpeg",
+        "project_title": "Portofolio",
+        "project_description": "Design of a portfolio website, made with Javascript, Html and Css"
+      }
+    ]
+  }
