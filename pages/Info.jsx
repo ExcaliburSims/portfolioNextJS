@@ -18,7 +18,7 @@ function Info() {
       </div>
       <div className={styles.content}>
         <div className={styles.imgprofil}>
-          <img src="/assets/ours.jpg" className="image_profl" alt="profil" />
+          <img src="/assets/profil.png" className="image_profl" alt="profil" />
           <ul>
             <li>
               <Link href="/">
