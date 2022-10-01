@@ -135,6 +135,13 @@
       width: 100%;
       height: auto;
       margin: 0 0 2% 0;
+      .imgprofil {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 42%;
+        height: 400px;
+      }
     }
   }
   @media screen and (max-width: 425px) {
@@ -151,8 +158,8 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        width: 90%;
-        height: 450px;
+        width: 85%;
+        height: 350px;
       }
       .proposinfo {
       margin: 0;
