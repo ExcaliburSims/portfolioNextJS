@@ -1,73 +1,73 @@
 {
-    "profil": [
-      {
-        "firstname": "Zilu",
-        "lastname": "Siméon",
-        "job_title": "Ingenieur logiciel",
-        "pic": "profil2.png",
-        "skills": "By integrating the kinshasa digital Academy, my experience in the world of software development and design has increased to the extent that I know exactly how to meet the needs of my clients.  Innovation being at the heart of my achievements, I place particular emphasis on new technology, because for me it represents the future.  Teamwork being an essential asset in the accomplishment of a good job, I define myself as a fervent collaborator.",
-        "about": "Holding a Bachelor's Degree in Computer Science and  Kinshasa Digital Academy's student in 2021. Very passionate by the computer science industry, I can't let go any opportunity which can let me learn or pratice or once again shared my knowledge  related to computer science topics with a focus on the App development and database management.",
-        "email": "ximeonzilu@gmail.com",
-        "telephone": "+243 810814949",
-        "address": "Kinshasa/Ngaliema GB",
-        "cv": "xims.pdf"
-      }
-    ],
-    "services": [
-      {
-        "id": 1,
-        "service_name": "Application Web",
-        "service_description": "De la conception au déploiement, je réalise des applications web de divers types."
-      },
-      {
-        "id": 2,
-        "service_name": "Application Mobile",
-        "service_description": "Android, IOS, Windows je suis dans la mise en oeuvre des applications mobiles sur mesure tournant dans plusieurs plateformes."
-      },
-      {
-        "id": 3,
-        "service_name": "Design Graphique",
-        "service_description": "UX & UI, je réalise des designs tenant compte des règles et principes pour une bonne expérience utilisateur."
-      },
-      {
-        "id": 4,
-        "service_name": "Clean Code",
-        "service_description": "J’assure la maintenance des codes déjà existants en les optimisants avec les bonnes pratiques pour une bonne complexité."
-      },
-      {
-        "id": 5,
-        "service_name": "Seo Marketing",
-        "service_description": "J’aide les tiers avec des techniques d’optimisation pour les moteurs de recherche à la mise en oeuvre de l'amélioration du positionnement de leur site web ou application web."
-      }
-    ],
-    "projects": [
-      {
-        "id": 1,
-        "project_image": "project-one.jpeg",
-        "project_title": "Valley Of King",
-        "project_description": "An online medical consultation application, done with Flutter and PhP",
-        "project-link": ""
-      },
-      {
-        "id": 2,
-        "project_image": "Screens.jpg",
-        "project_title": "Environews",
-        "project_description": "A warning system for medicale appointments, done with Flutter and PhP ",
-        "project-link": "https://www.environews-rdc.org/"
-      },
-      {
-        "id": 3,
-        "project_image": "project-two.jpeg",
-        "project_title": "Benelux Afro Center",
-        "project_description": "A simple stock management system, done with Javascript and GoogleSheet",
-        "project-link": "https://www.bacmd.net/"
-      },
-      {
-        "id": 4,
-        "project_image": "portofolio.jpeg",
-        "project_title": "The post",
-        "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
-        "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
-      }
-    ]
-  }
+  "profil": [
+    {
+      "firstname": "Zilu",
+      "lastname": "Siméon",
+      "job_title": "Ingenieur logiciel",
+      "pic": "profil2.png",
+      "skills": "By integrating the kinshasa digital Academy, my experience in the world of software development and design has increased to the extent that I know exactly how to meet the needs of my clients.  Innovation being at the heart of my achievements, I place particular emphasis on new technology, because for me it represents the future.  Teamwork being an essential asset in the accomplishment of a good job, I define myself as a fervent collaborator.",
+      "about": "Holding a Bachelor's Degree in Computer Science and  Kinshasa Digital Academy's student in 2021. Very passionate by the computer science industry, I can't let go any opportunity which can let me learn or pratice or once again shared my knowledge  related to computer science topics with a focus on the App development and database management.",
+      "email": "ximeonzilu@gmail.com",
+      "telephone": "+243 810814949",
+      "address": "Kinshasa/Ngaliema GB",
+      "cv": "xims.pdf"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "service_name": "Application Web",
+      "service_description": "De la conception au déploiement, je réalise des applications web de divers types."
+    },
+    {
+      "id": 2,
+      "service_name": "Application Mobile",
+      "service_description": "Android, IOS, Windows je suis dans la mise en oeuvre des applications mobiles sur mesure tournant dans plusieurs plateformes."
+    },
+    {
+      "id": 3,
+      "service_name": "Design Graphique",
+      "service_description": "UX & UI, je réalise des designs tenant compte des règles et principes pour une bonne expérience utilisateur."
+    },
+    {
+      "id": 4,
+      "service_name": "Clean Code",
+      "service_description": "J’assure la maintenance des codes déjà existants en les optimisants avec les bonnes pratiques pour une bonne complexité."
+    },
+    {
+      "id": 5,
+      "service_name": "Seo Marketing",
+      "service_description": "J’aide les tiers avec des techniques d’optimisation pour les moteurs de recherche à la mise en oeuvre de l'amélioration du positionnement de leur site web ou application web."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "project_image": "project-one.jpeg",
+      "project_title": "Valley Of King",
+      "project_description": "An online medical consultation application, done with Flutter and PhP",
+      "project-link": ""
+    },
+    {
+      "id": 2,
+      "project_image": "Screens.jpg",
+      "project_title": "Environews",
+      "project_description": "A warning system for medicale appointments, done with Flutter and PhP ",
+      "project-link": "https://www.environews-rdc.org/"
+    },
+    {
+      "id": 3,
+      "project_image": "project-two.jpeg",
+      "project_title": "Benelux Afro Center",
+      "project_description": "A simple stock management system, done with Javascript and GoogleSheet",
+      "project-link": "https://www.bacmd.net/"
+    },
+    {
+      "id": 4,
+      "project_image": "portofolio.jpeg",
+      "project_title": "The post",
+      "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
+      "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
+    }
+  ]
+}
