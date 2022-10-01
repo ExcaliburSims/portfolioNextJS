@@ -1,7 +1,7 @@
 @import "./Mixin_style.scss";
 
 .container {
-  background-image: url("../public/assets/ours.jpg");
+  background-image: url("../public/assets/fond.jpg");
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -67,6 +67,7 @@
     }
     @media screen and (max-width: 600px) {
       height: 100vh;
+      background-size: contain;
       .bloc_comment {
         width: 100%;
         height: auto;
