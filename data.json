@@ -16,47 +16,58 @@
     "services": [
       {
         "id": 1,
-        "icon": "fa-paint-brush",
-        "service_name": "App Design",
-        "service_description": "For your projects, we provide you with UX and UI Design solutions adapted to your needs"
+        "service_name": "Application Web",
+        "service_description": "De la conception au déploiement, je réalise des applications web de divers types."
       },
       {
         "id": 2,
-        "icon": "fa-chart-line",
-        "service_name": "Digital Orientation",
-        "service_description": "Are you hesitating of which technology to use? I'm there to provide you adaquate guide."
+        "service_name": "Application Mobile",
+        "service_description": "Android, IOS, Windows je suis dans la mise en oeuvre des applications mobiles sur mesure tournant dans plusieurs plateformes."
       },
       {
         "id": 3,
-        "icon": "fa-code",
-        "service_name": "App Development",
-        "service_description": "We turn your dreams into reality by providing you with mobile, web and desktop applications"
+        "service_name": "Design Graphique",
+        "service_description": "UX & UI, je réalise des designs tenant compte des règles et principes pour une bonne expérience utilisateur."
+      },
+      {
+        "id": 4,
+        "service_name": "Clean Code",
+        "service_description": "J’assure la maintenance des codes déjà existants en les optimisants avec les bonnes pratiques pour une bonne complexité."
+      },
+      {
+        "id": 5,
+        "service_name": "Seo Marketing",
+        "service_description": "J’aide les tiers avec des techniques d’optimisation pour les moteurs de recherche à la mise en oeuvre de l'amélioration du positionnement de leur site web ou application web."
       }
     ],
     "projects": [
       {
         "id": 1,
         "project_image": "project-one.jpeg",
-        "project_title": "Derrière ma Santé",
-        "project_description": "An online medical consultation application, done with Flutter and PhP"
+        "project_title": "Valley Of King",
+        "project_description": "An online medical consultation application, done with Flutter and PhP",
+        "project-link": ""
       },
       {
         "id": 2,
         "project_image": "Screens.jpg",
-        "project_title": "HealthPlus",
-        "project_description": "A warning system for medicale appointments, done with Flutter and PhP "
+        "project_title": "Environews",
+        "project_description": "A warning system for medicale appointments, done with Flutter and PhP ",
+        "project-link": "https://www.environews-rdc.org/"
       },
       {
         "id": 3,
         "project_image": "project-two.jpeg",
-        "project_title": "Stock Management",
-        "project_description": "A simple stock management system, done with Javascript and GoogleSheet"
+        "project_title": "Benelux Afro Center",
+        "project_description": "A simple stock management system, done with Javascript and GoogleSheet",
+        "project-link": "https://www.bacmd.net/"
       },
       {
         "id": 4,
         "project_image": "portofolio.jpeg",
-        "project_title": "Portofolio",
-        "project_description": "Design of a portfolio website, made with Javascript, Html and Css"
+        "project_title": "The post",
+        "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
+        "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
       }
     ]
   }
