@@ -43,28 +43,28 @@
   "projects": [
     {
       "id": 1,
-      "project_image": "project-one.jpeg",
+      "project_image": "/home/sims/KDA/PROJET/portfolioNextJS/public/assets/projet/movie.png",
       "project_title": "Valley Of King",
       "project_description": "An online medical consultation application, done with Flutter and PhP",
       "project-link": ""
     },
     {
       "id": 2,
-      "project_image": "Screens.jpg",
+      "project_image": "/home/sims/KDA/PROJET/portfolioNextJS/public/assets/projet/bac.png",
       "project_title": "Environews",
       "project_description": "A warning system for medicale appointments, done with Flutter and PhP ",
       "project-link": "https://www.environews-rdc.org/"
     },
     {
       "id": 3,
-      "project_image": "project-two.jpeg",
+      "project_image": "/home/sims/KDA/PROJET/portfolioNextJS/public/assets/projet/bac.png",
       "project_title": "Benelux Afro Center",
       "project_description": "A simple stock management system, done with Javascript and GoogleSheet",
       "project-link": "https://www.bacmd.net/"
     },
     {
       "id": 4,
-      "project_image": "portofolio.jpeg",
+      "project_image": "/home/sims/KDA/PROJET/portfolioNextJS/public/assets/projet/thepost.png",
       "project_title": "The post",
       "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
       "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
