@@ -10,6 +10,7 @@ import {
   FaSearch,
 } from "react-icons/fa";
 
+
 function Service() {
   let mobile = <FaMobileAlt className={stylesCard.iconpic} />;
   let laptop = <FaLaptopCode className={stylesCard.iconpic} />;
