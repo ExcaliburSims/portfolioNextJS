@@ -68,6 +68,13 @@
       "project_title": "The post",
       "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
       "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
+    },
+    {
+      "id": 5,
+      "project_image": "/home/sims/KDA/PROJET/portfolioNextJS/public/assets/projet/thepost.png",
+      "project_title": "Sims",
+      "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
+      "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
     }
   ]
 }
