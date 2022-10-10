@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import styles from "../styles/CardProject.module.scss";
-import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 function CardProject(props) {
   return (
@@ -13,7 +12,7 @@ function CardProject(props) {
             <a target="_blank">Voir projet</a>
           </Link>
         </div>
-        <p className="element--projet__titre">{props.title}</p>
+        <p>{props.title}</p>
       </div>
     </div>
   );
