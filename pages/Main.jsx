@@ -21,7 +21,7 @@ function Main() {
               Je me concentre sur la construction d'applications web et mobile
               front-end et back-end réactives
             </p>
-            <Link href="activite">
+            <Link href="/#Contact">
               <a>Hire me</a>
             </Link>
           </div>
