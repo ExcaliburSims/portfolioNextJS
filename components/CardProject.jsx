@@ -7,7 +7,7 @@ function CardProject(props) {
   return (
     <div className={styles.cardProjet}>
       <div className={styles.cardContent}>
-        <img src={props.pic.src} className={styles.cardImage} alt="projet" />
+        <img src={props.pic} className={styles.cardImage} alt="projet" />
         <div className={styles.cardBloc}>
           <Link href="/">
             <a>Voir projet</a>
