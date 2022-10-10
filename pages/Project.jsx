@@ -60,6 +60,7 @@ function Project() {
             key={datas.id}
             title={datas.project_title}
             pic={datas.project_image}
+            link={datas.project_link}
           />
         ))}
       </Slider>
