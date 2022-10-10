@@ -46,28 +46,28 @@
       "project_image": "https://res.cloudinary.com/dgtogz0pp/image/upload/v1665409111/Portfolio/movie_hincgf.png",
       "project_title": "Valley Of King",
       "project_description": "An online medical consultation application, done with Flutter and PhP",
-      "project-link": ""
+      "project_link": ""
     },
     {
       "id": 2,
       "project_image": "https://res.cloudinary.com/dgtogz0pp/image/upload/v1665414830/Portfolio/environnews_nrbsum.png",
       "project_title": "Environews",
       "project_description": "A warning system for medicale appointments, done with Flutter and PhP ",
-      "project-link": "https://www.environews-rdc.org/"
+      "project_link": "https://www.environews-rdc.org/"
     },
     {
       "id": 3,
       "project_image": "https://res.cloudinary.com/dgtogz0pp/image/upload/v1665409108/Portfolio/bac_ob8ode.png",
       "project_title": "Benelux Afro Center",
       "project_description": "A simple stock management system, done with Javascript and GoogleSheet",
-      "project-link": "https://www.bacmd.net/"
+      "project_link": "https://www.bacmd.net/"
     },
     {
       "id": 4,
       "project_image": "https://res.cloudinary.com/dgtogz0pp/image/upload/v1665409113/Portfolio/thepost_rlubkj.png",
       "project_title": "The post",
       "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
-      "project-link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
+      "project_link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
     }
   ]
 }
