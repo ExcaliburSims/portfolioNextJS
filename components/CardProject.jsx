@@ -9,8 +9,8 @@ function CardProject(props) {
       <div className={styles.cardContent}>
         <img src={props.pic} className={styles.cardImage} alt="projet" />
         <div className={styles.cardBloc}>
-          <Link href="/">
-            <a>Voir projet</a>
+          <Link href={props.link}>
+            <a target="_blank">Voir projet</a>
           </Link>
         </div>
         <p className="element--projet__titre">{props.title}</p>
