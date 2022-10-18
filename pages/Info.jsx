@@ -12,6 +12,9 @@ import {
 import data from "../data.json";
 
 function Info() {
+  const downloader = () => {
+    console.log("OKEY");
+  };
   /* data.profil.map((dat) => console.log(dat.firstname)); 
   console.log(data.profil[0]);
   console.log(data.profil[0].contacts.telephone);*/
@@ -30,9 +33,9 @@ function Info() {
           <ul>
             <li>
               <Link href={data.profil[0].contacts.twitter}>
-                <a target="_blank">
-                  <FaTwitter className={styles.fab} aria-hidden="true" />
-                </a>
+                {/* <a target="_blank"> */}
+                <FaTwitter className={styles.fab} aria-hidden="true" />
+                {/* </a> */}
               </Link>
             </li>
             <li>
@@ -40,9 +43,9 @@ function Info() {
                 href={data.profil[0].contacts.linkedin}
                 className={styles.link}
               >
-                <a target="_blank">
-                  <FaLinkedin className={styles.fab} aria-hidden="true" />
-                </a>
+                {/* <a target="_blank"> */}
+                <FaLinkedin className={styles.fab} aria-hidden="true" />
+                {/* </a> */}
               </Link>
             </li>
             <li>
@@ -50,9 +53,9 @@ function Info() {
                 href={data.profil[0].contacts.telegram}
                 className={styles.link}
               >
-                <a target="_blank">
-                  <FaTelegram className={styles.fab} aria-hidden="true" />
-                </a>
+                {/* <a target="_blank"> */}
+                <FaTelegram className={styles.fab} aria-hidden="true" />
+                {/* </a> */}
               </Link>
             </li>
             <li>
@@ -60,9 +63,9 @@ function Info() {
                 href={data.profil[0].contacts.github}
                 className={styles.link}
               >
-                <a target="_blank">
-                  <FaGithub className={styles.fab} aria-hidden="true" />
-                </a>
+                {/* <a target="_blank"> */}
+                <FaGithub className={styles.fab} aria-hidden="true" />
+                {/* </a> */}
               </Link>
             </li>
           </ul>
@@ -74,8 +77,8 @@ function Info() {
             technologies Web et mobile. Mon savoir-faire est basé principalement
             sur l'écosystème Javascript.
           </p>
-          <Link href="activite">
-            <a>
+          <Link href={data.profil[0].cv}>
+            <a target="_blank">
               <FaDownload />
               &nbsp;Mon CV
             </a>
