@@ -10,6 +10,7 @@ function FormInput(props) {
           name={props.name}
           placeholder={props.placeholder}
           className={styles.input}
+          id={props.id}
         />
       </div>
       {/* <div class="groupe--input --ombreExterieure survol"> */}
