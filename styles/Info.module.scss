@@ -54,34 +54,36 @@
           box-shadow: 0 10px 15px rgba(97, 97, 97, 0.1);
           background: linear-gradient(45deg, #ddd, #fff);
           transition: 0.5s;
-          .fab {
-            width: 70%;
-            height: 70%;
-            display: block;
-            border-radius: 30%;
-            position: relative;
-            left: 7px;
-            top: 7px;
-            font-size: 24px;
-            transition: 0.5s;
-            background-color: linear-gradient(45deg, #ddd, #fff);
-          }
-          &:hover {
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            width: 55px;
-            height: 55px;
-            transition: 0.5s;
-            &:nth-child(1) {
-              color: #00aced;
+          a{
+            .fab {
+              width: 70%;
+              height: 70%;
+              display: block;
+              border-radius: 30%;
+              position: relative;
+              left: 7px;
+              top: 7px;
+              font-size: 24px;
+              transition: 0.5s;
+              background-color: linear-gradient(45deg, #ddd, #fff);
             }
-            &:nth-child(2) {
-              color: #007bb6;
-            }
-            &:nth-child(3) {
-              color: #229ed9;
-            }
-            &:nth-child(4) {
-              color: #171515;
+            &:hover {
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+              width: 55px;
+              height: 55px;
+              transition: 0.5s;
+              &:nth-child(1) {
+                color: #00aced;
+              }
+              &:nth-child(2) {
+                color: #007bb6;
+              }
+              &:nth-child(3) {
+                color: #229ed9;
+              }
+              &:nth-child(4) {
+                color: #171515;
+              }
             }
           }
         }

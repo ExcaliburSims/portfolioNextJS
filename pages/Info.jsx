@@ -9,8 +9,12 @@ import {
   FaTelegram,
   FaDownload,
 } from "react-icons/fa";
+import data from "../data.json";
 
 function Info() {
+  /* data.profil.map((dat) => console.log(dat.firstname)); 
+  console.log(data.profil[0]);
+  console.log(data.profil[0].contacts.telephone);*/
   return (
     <div className={styles.container} id="Info">
       <div className={styles.title}>
@@ -18,26 +22,47 @@ function Info() {
       </div>
       <div className={styles.content}>
         <div className={styles.imgprofil}>
-          <img src="/assets/profil.png" className="image_profl" alt="profil" />
+          <img
+            src="https://res.cloudinary.com/dgtogz0pp/image/upload/v1665424079/Portfolio/profil_ni2nrq.png"
+            className="image_profl"
+            alt="profil"
+          />
           <ul>
             <li>
-              <Link href="/">
-                <FaTwitter className={styles.fab} aria-hidden="true" />
+              <Link href={data.profil[0].contacts.twitter}>
+                <a target="_blank">
+                  <FaTwitter className={styles.fab} aria-hidden="true" />
+                </a>
               </Link>
             </li>
             <li>
-              <Link href="#" className={styles.link}>
-                <FaLinkedin className={styles.fab} aria-hidden="true" />
+              <Link
+                href={data.profil[0].contacts.linkedin}
+                className={styles.link}
+              >
+                <a target="_blank">
+                  <FaLinkedin className={styles.fab} aria-hidden="true" />
+                </a>
               </Link>
             </li>
             <li>
-              <Link href="#" className={styles.link}>
-                <FaTelegram className={styles.fab} aria-hidden="true" />
+              <Link
+                href={data.profil[0].contacts.telegram}
+                className={styles.link}
+              >
+                <a target="_blank">
+                  <FaTelegram className={styles.fab} aria-hidden="true" />
+                </a>
               </Link>
             </li>
             <li>
-              <Link href="#" className={styles.link}>
-                <FaGithub className={styles.fab} aria-hidden="true" />
+              <Link
+                href={data.profil[0].contacts.github}
+                className={styles.link}
+              >
+                <a target="_blank">
+                  <FaGithub className={styles.fab} aria-hidden="true" />
+                </a>
               </Link>
             </li>
           </ul>
