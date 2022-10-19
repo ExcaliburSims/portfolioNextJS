@@ -74,6 +74,13 @@
       "project_title": "The post",
       "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
       "project_link": "https://mega.nz/file/3NhQVa5L#fg0cmThCi0LLXGo3V9MZFrPmvLVOZJAYSkxtth3Vdzc"
+    },
+    {
+      "id": 5,
+      "project_image": "https://res.cloudinary.com/dgtogz0pp/image/upload/v1666215468/Portfolio/portfolio_hm5zqc.png",
+      "project_title": "Portfolio",
+      "project_description": "Design of a portfolio website, made with Javascript, Html and Css",
+      "project_link": "https://simeonzilu.vercel.app/"
     }
   ]
 }
