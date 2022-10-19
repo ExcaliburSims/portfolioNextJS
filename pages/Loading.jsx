@@ -6,7 +6,9 @@ import styles from "../styles/Loading.module.scss";
 const Loading = () => {
   return (
     <div className={styles.container}>
-      <InfinitySpin width="400" color="#fb839e" />;
+      <div className={styles.content}>
+        <InfinitySpin width="400" color="#fb839e" />;
+      </div>
     </div>
   );
 };
