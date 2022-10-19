@@ -1,0 +1,9 @@
+@import "/styles/Mixin_style.scss";
+
+.container{
+	background-color: $fondSombre;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
